@@ -57,7 +57,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/@ADVERT4U_BOT'>CLICK HERE FOR SUPPORT </a></b>",
+                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/ADVERT4U_BOT'>CLICK HERE FOR SUPPORT </a></b>",
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
@@ -65,14 +65,13 @@ async def start(b, m):
             text="""
 <i>👋 ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡɪᴛʜ ʙᴏᴛʜ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ ꜱᴜᴘᴘᴏʀᴛ</i>\n
 <i>Send a file/video and see magic!<i>\n
-<i>Cʟɪᴄᴋ ᴏɴ /help ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n
-<i><b>It is your responsibility to use wisely I dont take responsibilities of any voilations(of any kind)</i>\n
 <i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>\n
-<b>Dont Spam.</b>""",
+<i><b>It is your responsibility to use wisely I dont take responsibilities of any voilations(of any kind)</i></b>\n
+<b> So Please Dont Spam.</b>""",
             parse_mode="HTML",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('MOVIES UPDATES', url=f"https://t.me/MOVIEMASALA2_0"),
-                                                                                       InlineKeyboardButton('MOVIES REQUEST', url='https://github.com/MOVIEMASALA_REQUEST') ] ]  ) )
+            reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Mᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs', url=f"https://t.me/MOVIEMASALA2_0"),
+                                                                                       InlineKeyboardButton('Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ', url='https://t.me/MOVIEMASALA_REQUEST') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
