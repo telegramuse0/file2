@@ -35,7 +35,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="__𝓢𝓞𝓡𝓡𝓨, 𝓨𝓞𝓤 𝓐𝓡𝓔 𝓐𝓡𝓔 𝓑𝓐𝓝𝓝𝓔𝓓 𝓕𝓡𝓞𝓜 𝓤𝓢𝓘𝓝𝓖 𝓜𝓔. 𝓒ᴏɴᴛᴀᴄᴛ ᴛʜᴇ 𝓓ᴇᴠᴇʟᴏᴘᴇʀ__\n\n @ADVERT4U_BOT **𝙃𝙚 𝙬𝙞𝙡𝙡 𝙝𝙚𝙡𝙥 𝙮𝙤𝙪**",
+                        text="__SORRY, YOU ARE BANNED FROM USING ME. CONTACT__\n\n @ADVERT4U_BOT **HE WILL HELP YOU**",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -57,14 +57,14 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/ADVERT4U_BOT'>CLICK HERE FOR SUPPORT </a></b>",
+                    text="<i>SOMETHING WENT WRONG</i> <b> <a href='http://t.me/ADVERT4U_BOT'>CLICK HERE FOR SUPPORT </a></b>",
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
             text="""
-<i>👋 ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡɪᴛʜ ʙᴏᴛʜ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ ꜱᴜᴘᴘᴏʀᴛ</i>\n
-<i>Send a file/video and see magic!<i>\n
+<i>👋 I Am Here To Provide You Fast Download Link Genrate From Your File/Video</i>\n
+<i>Send a file/video and Click Download button Below !<i>\n
 <i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>\n
 <i><b>It is your responsibility to use wisely I dont take responsibilities of any voilations(of any kind)</i></b>\n
 <b> So Please Dont Spam.</b>""",
@@ -149,7 +149,7 @@ async def start(b, m):
 
 <b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
 
-<b>🚸 Nᴏᴛᴇ : LINK  EXPIRE TILL I WEEK</b>
+<b>🚸 Nᴏᴛᴇ : LINK  EXPIRE TILL 1 WEEK</b>
 
 """
 
