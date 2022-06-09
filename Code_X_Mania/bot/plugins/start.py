@@ -151,6 +151,7 @@ async def start(b, m):
 
 <b>🚸 Nᴏᴛᴇ : LINK  EXPIRE TILL 1 WEEK</b>
 
+<b> OR YOU CAN SEARCH MOVIE HERE <a href=https://t.me/moviemasala2_0>Click Me</a> </b>
 """
 
         await m.reply_text(
