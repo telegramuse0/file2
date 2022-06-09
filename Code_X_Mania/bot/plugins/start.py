@@ -71,7 +71,7 @@ async def start(b, m):
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Mᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs', url=f"https://t.me/MOVIEMASALA2_0"),
-                                                                                       InlineKeyboardButton('Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ', url='https://t.me/MOVIEMASALA_REQUEST') ] ]  ) )
+                                                                                       InlineKeyboardButton('Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ 2.0', url='https://t.me/+9nDMQ1zVHKgyYzFl') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
