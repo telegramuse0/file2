@@ -63,8 +63,8 @@ async def start(b, m):
                 return
         await m.reply_text(
             text="""
-<i>👋 I Am Here To Provide You Fast Download Link Genrate From Your File/Video</i>\n
-<i>Send a file/video and Click Download button Below !<i>\n
+<i>👋<b> I Am Here To Provide You Fast Download Link Genrate From Your File/Video</i></b>\n
+<i>Send a file/video and Click Download button Below !</i>\n
 <i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>\n
 <i><b>It is your responsibility to use wisely I dont take responsibilities of any voilations(of any kind)</i></b>\n
 <b> So Please Dont Spam.</b>""",
